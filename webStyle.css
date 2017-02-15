@@ -1,0 +1,40 @@
+body{
+    background-image: url(http://hdblackwallpaper.com/wallpaper/2015/09/green-and-black-wallpapers-20-desktop-wallpaper.jpg);
+    font-size: small;
+    font-weight: normal;
+    font-family: sans-serif;
+    display: grid;
+    color: black;
+    text-align: center;
+}
+
+p:first-of-type{
+    background-color: lime;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: #00D800;
+}
+
+td{
+    vertical-align: bottom;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td{
+    border-color: black;
+    border: inset;
+}
+
+td:nth-child(3) {
+    background: lime;
+}
